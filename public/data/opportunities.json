@@ -1,0 +1,1226 @@
+[
+  {
+    "id": "nsp",
+    "type": "scholarship",
+    "title": "National Scholarship Portal",
+    "org": "Government of India",
+    "blurb": "One portal for central and many state scholarships. Register once, then see every scheme you qualify for.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://scholarships.gov.in",
+    "rural": 1,
+    "hub": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Windows open every year",
+    "next": "Register once and keep your documents ready. The checklist below shows which ones.",
+    "status": "published"
+  },
+  {
+    "id": "nmmss",
+    "type": "scholarship",
+    "title": "National Means-cum-Merit Scholarship",
+    "org": "Ministry of Education",
+    "blurb": "About ₹12,000 a year for talented students in government and aided schools, chosen through a state test taken in Class 8.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": "any",
+    "url": "https://scholarships.gov.in",
+    "inc": 3.5,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Through your school",
+    "when": "Test held yearly in Class 8",
+    "next": "Ask your Class 8 teacher when the state selection test is held.",
+    "status": "published"
+  },
+  {
+    "id": "yasasvi",
+    "type": "scholarship",
+    "title": "PM YASASVI Scholarships",
+    "org": "Ministry of Social Justice & Empowerment",
+    "blurb": "Scholarships for OBC, EBC and DNT students from Class 9 up to college.",
+    "stages": [
+      "school",
+      "plus2",
+      "college"
+    ],
+    "interests": "any",
+    "url": "https://scholarships.gov.in",
+    "req": [
+      "obc"
+    ],
+    "inc": 2.5,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "sc",
+    "type": "scholarship",
+    "title": "Pre & Post Matric Scholarships for SC students",
+    "org": "Ministry of Social Justice & Empowerment",
+    "blurb": "Help with fees and living costs from Class 9 through college, ITI and diploma courses.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://socialjustice.gov.in",
+    "req": [
+      "sc"
+    ],
+    "inc": 2.5,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "next": "Apply on the National Scholarship Portal with your caste and income certificates.",
+    "status": "published"
+  },
+  {
+    "id": "st",
+    "type": "scholarship",
+    "title": "Pre & Post Matric Scholarships for ST students",
+    "org": "Ministry of Tribal Affairs",
+    "blurb": "Support for tuition and maintenance for Scheduled Tribe students from Class 9 through higher education.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://tribal.gov.in",
+    "req": [
+      "st"
+    ],
+    "inc": 2.5,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "next": "Apply on the National Scholarship Portal with your tribe and income certificates.",
+    "status": "published"
+  },
+  {
+    "id": "minority",
+    "type": "scholarship",
+    "title": "Scholarships for Minority Communities",
+    "org": "Ministry of Minority Affairs",
+    "blurb": "Pre-matric, post-matric and merit-cum-means schemes for notified minority communities.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://www.minorityaffairs.gov.in",
+    "req": [
+      "minority"
+    ],
+    "inc": 2.5,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "next": "Check which of the three schemes matches your class and family income.",
+    "status": "published"
+  },
+  {
+    "id": "pragati",
+    "type": "scholarship",
+    "title": "AICTE Pragati Scholarship for Girls",
+    "org": "AICTE",
+    "blurb": "Yearly support for girls studying in AICTE-approved degree and diploma courses.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.aicte-india.org",
+    "req": [
+      "girl"
+    ],
+    "inc": 8,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "saksham",
+    "type": "scholarship",
+    "title": "AICTE Saksham Scholarship",
+    "org": "AICTE",
+    "blurb": "Support for students with disabilities in AICTE-approved technical courses.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.aicte-india.org",
+    "req": [
+      "pwd"
+    ],
+    "inc": 8,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "csss",
+    "type": "scholarship",
+    "title": "Central Sector Scholarship for College Students",
+    "org": "Ministry of Education",
+    "blurb": "For students in the top 20 percentile of Class 12 results who join a regular degree course.",
+    "stages": [
+      "plus2",
+      "college"
+    ],
+    "interests": "any",
+    "url": "https://scholarships.gov.in",
+    "inc": 4.5,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens after Class 12 results",
+    "next": "Apply on the National Scholarship Portal once your Class 12 results are out.",
+    "status": "published"
+  },
+  {
+    "id": "inspire",
+    "type": "scholarship",
+    "title": "INSPIRE Scholarship (SHE)",
+    "org": "Department of Science & Technology",
+    "blurb": "Around ₹80,000 a year, with mentoring, for top Class 12 performers who take up natural or basic sciences.",
+    "stages": [
+      "plus2",
+      "college"
+    ],
+    "interests": [
+      "sci"
+    ],
+    "url": "https://online-inspire.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "vidyadhan",
+    "type": "scholarship",
+    "title": "Vidyadhan Scholarship",
+    "org": "Sarojini Damodaran Foundation",
+    "blurb": "Scholarship and mentoring for bright students from low-income families after Class 10 and Class 12. Offered in selected states.",
+    "stages": [
+      "plus2",
+      "college"
+    ],
+    "interests": "any",
+    "url": "https://vidyadhan.org",
+    "inc": 2,
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "reliance",
+    "type": "scholarship",
+    "title": "Reliance Foundation Undergraduate Scholarships",
+    "org": "Reliance Foundation",
+    "blurb": "Merit-based support for first-year degree students, with preference for lower family income.",
+    "stages": [
+      "plus2",
+      "college"
+    ],
+    "interests": "any",
+    "url": "https://www.reliancefoundation.org",
+    "inc": 15,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "buddy",
+    "type": "scholarship",
+    "title": "Buddy4Study",
+    "org": "Buddy4Study India",
+    "blurb": "A searchable list of government, corporate and private scholarships, with filters for class, course and state.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://www.buddy4study.com",
+    "rural": 1,
+    "hub": 1,
+    "cost": "Free to browse",
+    "mode": "Online",
+    "next": "Filter by your class and state, then save the ones with open dates.",
+    "status": "published"
+  },
+  {
+    "id": "manak",
+    "type": "competition",
+    "title": "INSPIRE Awards MANAK",
+    "org": "Department of Science & Technology",
+    "blurb": "Your school nominates one original idea. Selected ideas win ₹10,000 and a path to national exhibitions.",
+    "stages": [
+      "school"
+    ],
+    "interests": "any",
+    "url": "https://www.inspireawards-dst.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Through your school",
+    "when": "Nominations open yearly",
+    "next": "Ask your school to nominate your idea on the MANAK portal.",
+    "status": "published"
+  },
+  {
+    "id": "ioqm",
+    "type": "competition",
+    "title": "Mathematical Olympiad Programme (IOQM)",
+    "org": "HBCSE & Mathematical Association of India",
+    "blurb": "The first step to the International Mathematical Olympiad, open to Classes 8 to 12.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": [
+      "tech",
+      "sci"
+    ],
+    "url": "https://olympiads.hbcse.tifr.res.in",
+    "rural": 1,
+    "cost": "Small fee",
+    "mode": "Exam centres across India",
+    "when": "Held every year",
+    "status": "published"
+  },
+  {
+    "id": "nse",
+    "type": "competition",
+    "title": "Science Olympiads (NSEP, NSEC, NSEB, NSEA, NSEJS)",
+    "org": "IAPT and partner associations",
+    "blurb": "National Standard Examinations in physics, chemistry, biology, astronomy and junior science.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": [
+      "sci",
+      "health",
+      "tech"
+    ],
+    "url": "https://www.iapt.org.in",
+    "rural": 1,
+    "cost": "Small fee",
+    "mode": "Exam centres across India",
+    "when": "Held every year",
+    "status": "published"
+  },
+  {
+    "id": "ncsc",
+    "type": "competition",
+    "title": "National Children's Science Congress",
+    "org": "NCSTC, Department of Science & Technology",
+    "blurb": "Project competition for students aged 10 to 17, starting at district level and rising to the national stage.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": [
+      "sci",
+      "skills",
+      "health",
+      "tech"
+    ],
+    "url": "https://dst.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Through your school",
+    "when": "Runs every year",
+    "next": "Ask your science teacher to register a team project for the district round.",
+    "status": "published"
+  },
+  {
+    "id": "kala",
+    "type": "competition",
+    "title": "Kala Utsav",
+    "org": "Ministry of Education",
+    "blurb": "A national festival of music, dance, theatre, visual arts and crafts for secondary school students.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": [
+      "arts"
+    ],
+    "url": "https://www.education.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Through your school",
+    "when": "Held every year",
+    "next": "Ask your school which district round you can enter.",
+    "status": "published"
+  },
+  {
+    "id": "ppc",
+    "type": "competition",
+    "title": "Pariksha Pe Charcha",
+    "org": "Ministry of Education, MyGov",
+    "blurb": "Open to students of Classes 6 to 12. Take part online and selected students join the interaction.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": "any",
+    "url": "https://www.mygov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Opens every year",
+    "status": "published"
+  },
+  {
+    "id": "mygov",
+    "type": "competition",
+    "title": "MyGov Quizzes and Creative Contests",
+    "org": "Government of India",
+    "blurb": "Essay, quiz, video and design contests run by ministries, open to all ages.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "arts",
+      "biz",
+      "tech",
+      "sci"
+    ],
+    "url": "https://www.mygov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "New contests all year",
+    "status": "published"
+  },
+  {
+    "id": "vbyld",
+    "type": "competition",
+    "title": "Viksit Bharat Young Leaders Dialogue",
+    "org": "MY Bharat, Ministry of Youth Affairs",
+    "blurb": "Quiz, essay and idea rounds for young people aged 15 to 29 on India's future.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://mybharat.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Runs every year",
+    "status": "published"
+  },
+  {
+    "id": "codechef",
+    "type": "competition",
+    "title": "CodeChef Starters",
+    "org": "CodeChef",
+    "blurb": "Free weekly coding contests with rankings, suitable for beginners and experts.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.codechef.com",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Every week",
+    "status": "published"
+  },
+  {
+    "id": "sih",
+    "type": "competition",
+    "title": "Smart India Hackathon",
+    "org": "Ministry of Education & AICTE",
+    "blurb": "Teams solve real problems posed by ministries and industry. Open to college and polytechnic students.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.sih.gov.in",
+    "cost": "Free",
+    "mode": "Online + on campus",
+    "when": "Registration opens yearly",
+    "next": "Form a team of six and ask your college to register as a nodal centre.",
+    "status": "published"
+  },
+  {
+    "id": "spaceapps",
+    "type": "competition",
+    "title": "NASA Space Apps Challenge",
+    "org": "NASA",
+    "blurb": "A global weekend hackathon using NASA open data, with local events across India.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech",
+      "sci"
+    ],
+    "url": "https://www.spaceappschallenge.org",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online + local events",
+    "when": "Held every year",
+    "status": "published"
+  },
+  {
+    "id": "eureka",
+    "type": "competition",
+    "title": "Eureka! Business Plan Competition",
+    "org": "E-Cell, IIT Bombay",
+    "blurb": "One of Asia's large student startup competitions, open to college students across the country.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "biz",
+      "tech"
+    ],
+    "url": "https://ecell.in",
+    "cost": "Free to enter",
+    "mode": "Online + finals on campus",
+    "when": "Held every year",
+    "status": "published"
+  },
+  {
+    "id": "skills",
+    "type": "competition",
+    "title": "India Skills Competition",
+    "org": "NSDC, Skill India",
+    "blurb": "Compete in trades like electronics, welding, fashion and cooking to qualify for WorldSkills.",
+    "stages": [
+      "plus2",
+      "voc"
+    ],
+    "interests": [
+      "skills",
+      "tech"
+    ],
+    "url": "https://nsdcindia.org",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Regional rounds",
+    "when": "Held every year",
+    "next": "Ask your ITI or training centre to register you for the state round.",
+    "status": "published"
+  },
+  {
+    "id": "adplist",
+    "type": "mentorship",
+    "title": "ADPList",
+    "org": "ADPList",
+    "blurb": "Free one-to-one sessions with mentors from tech, design, business and more.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://adplist.org",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "next": "Create a profile and book one 30 minute session with a clear question.",
+    "status": "published"
+  },
+  {
+    "id": "agastya",
+    "type": "mentorship",
+    "title": "Agastya Young Instructor Leaders",
+    "org": "Agastya International Foundation",
+    "blurb": "Rural students learn hands-on science and teach it to younger children. Runs in partner schools and regions.",
+    "stages": [
+      "school"
+    ],
+    "interests": [
+      "sci",
+      "tech",
+      "skills"
+    ],
+    "url": "https://www.agastya.org",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Offline in partner regions",
+    "next": "Check whether Agastya works with a school near you.",
+    "status": "published"
+  },
+  {
+    "id": "girlscript",
+    "type": "mentorship",
+    "title": "GirlScript Summer of Code",
+    "org": "GirlScript Foundation",
+    "blurb": "A beginner-friendly open-source programme where volunteer mentors guide first-time contributors.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.girlscript.tech",
+    "rural": 1,
+    "boost": [
+      "girl"
+    ],
+    "cost": "Free",
+    "mode": "Online",
+    "when": "Runs once a year",
+    "status": "published"
+  },
+  {
+    "id": "wtm",
+    "type": "mentorship",
+    "title": "Women Techmakers",
+    "org": "Google",
+    "blurb": "A community of women in technology with events, study groups and mentoring.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.womentechmakers.com",
+    "rural": 1,
+    "boost": [
+      "girl"
+    ],
+    "cost": "Free",
+    "mode": "Online + local events",
+    "status": "published"
+  },
+  {
+    "id": "gsoc",
+    "type": "internship",
+    "title": "Google Summer of Code",
+    "org": "Google",
+    "blurb": "Paid open-source projects for beginners aged 18 and above, with a mentor from the project.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://summerofcode.withgoogle.com",
+    "rural": 1,
+    "cost": "Stipend paid",
+    "mode": "Remote",
+    "when": "Applications open each spring",
+    "status": "published"
+  },
+  {
+    "id": "outreachy",
+    "type": "internship",
+    "title": "Outreachy",
+    "org": "Software Freedom Conservancy",
+    "blurb": "Paid remote internships in open source for people who face under-representation or bias in tech.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.outreachy.org",
+    "rural": 1,
+    "boost": [
+      "girl"
+    ],
+    "cost": "Stipend paid",
+    "mode": "Remote",
+    "when": "Two rounds a year",
+    "status": "published"
+  },
+  {
+    "id": "aicte-int",
+    "type": "internship",
+    "title": "AICTE Internship Portal",
+    "org": "AICTE",
+    "blurb": "Internships and trainings from companies and institutions for students of technical courses.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech",
+      "biz"
+    ],
+    "url": "https://internship.aicte-india.org",
+    "rural": 1,
+    "hub": 1,
+    "cost": "Free",
+    "mode": "Remote and on-site",
+    "next": "Complete your profile and apply to three internships that match your skills.",
+    "status": "published"
+  },
+  {
+    "id": "pmint",
+    "type": "internship",
+    "title": "PM Internship Scheme",
+    "org": "Ministry of Corporate Affairs",
+    "blurb": "Twelve-month internships in large companies for ages 21 to 24 with a monthly stipend. For ITI, diploma and graduate candidates not in full-time study.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://pminternship.mca.gov.in",
+    "inc": 8,
+    "rural": 1,
+    "cost": "Stipend paid",
+    "mode": "On-site, many districts",
+    "when": "Rounds announced on the portal",
+    "status": "published"
+  },
+  {
+    "id": "nats",
+    "type": "internship",
+    "title": "Apprenticeship India (NATS)",
+    "org": "Ministry of Education & Skill India",
+    "blurb": "Paid on-the-job training with employers for ITI, diploma and degree holders.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "skills",
+      "tech"
+    ],
+    "url": "https://nats.education.gov.in",
+    "rural": 1,
+    "cost": "Stipend paid",
+    "mode": "On-site",
+    "next": "Register on the portal and apply to apprenticeships near your district.",
+    "status": "published"
+  },
+  {
+    "id": "niti",
+    "type": "internship",
+    "title": "NITI Aayog Internship Scheme",
+    "org": "NITI Aayog",
+    "blurb": "Research internships on policy, data and development for college students.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "biz",
+      "arts",
+      "sci",
+      "tech"
+    ],
+    "url": "https://www.niti.gov.in",
+    "cost": "Free to apply",
+    "mode": "Delhi, with some remote",
+    "when": "Applications open in cycles",
+    "status": "published"
+  },
+  {
+    "id": "drdo",
+    "type": "internship",
+    "title": "DRDO Internships",
+    "org": "DRDO",
+    "blurb": "Short research internships at defence laboratories for engineering and science students.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "tech",
+      "sci"
+    ],
+    "url": "https://www.drdo.gov.in",
+    "cost": "Free to apply",
+    "mode": "On-site at labs",
+    "when": "Cycles through the year",
+    "status": "published"
+  },
+  {
+    "id": "srfp",
+    "type": "internship",
+    "title": "Summer Research Fellowships",
+    "org": "Indian Academy of Sciences, INSA, NASI",
+    "blurb": "Summer research stints at leading labs for undergraduate science and engineering students.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "sci",
+      "tech",
+      "health"
+    ],
+    "url": "https://www.ias.ac.in",
+    "rural": 1,
+    "cost": "Stipend paid",
+    "mode": "On-site at host lab",
+    "when": "Applications open each winter",
+    "status": "published"
+  },
+  {
+    "id": "icmr",
+    "type": "internship",
+    "title": "ICMR Short Term Studentship",
+    "org": "ICMR",
+    "blurb": "Two-month research projects for medical, dental, pharmacy and life-science students.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "health",
+      "sci"
+    ],
+    "url": "https://www.icmr.gov.in",
+    "cost": "Stipend paid",
+    "mode": "On-site",
+    "when": "Applications open each year",
+    "status": "published"
+  },
+  {
+    "id": "nabard",
+    "type": "internship",
+    "title": "NABARD Internship",
+    "org": "NABARD",
+    "blurb": "Internships in rural development and agriculture finance for students of related courses.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "skills",
+      "biz"
+    ],
+    "url": "https://www.nabard.org",
+    "rural": 1,
+    "cost": "Free to apply",
+    "mode": "On-site at regional offices",
+    "status": "published"
+  },
+  {
+    "id": "lamp",
+    "type": "internship",
+    "title": "LAMP Fellowship",
+    "org": "PRS Legislative Research",
+    "blurb": "A ten-month fellowship assisting Members of Parliament with research. For recent graduates.",
+    "stages": [
+      "college"
+    ],
+    "interests": [
+      "arts",
+      "biz"
+    ],
+    "url": "https://prsindia.org",
+    "cost": "Stipend paid",
+    "mode": "Delhi",
+    "when": "Applications open each year",
+    "status": "published"
+  },
+  {
+    "id": "internshala",
+    "type": "internship",
+    "title": "Internshala",
+    "org": "Internshala",
+    "blurb": "A large board of internships and trainings, with many remote and part-time options.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://internshala.com",
+    "rural": 1,
+    "hub": 1,
+    "cost": "Free to browse",
+    "mode": "Remote and on-site",
+    "status": "published"
+  },
+  {
+    "id": "swayam",
+    "type": "learning",
+    "title": "SWAYAM",
+    "org": "Ministry of Education",
+    "blurb": "Free courses from Class 9 to postgraduate level. Many give certificates and university credit.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://swayam.gov.in",
+    "rural": 1,
+    "hub": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "next": "Pick one course in your field and enrol today.",
+    "status": "published"
+  },
+  {
+    "id": "nptel",
+    "type": "learning",
+    "title": "NPTEL",
+    "org": "IITs and IISc",
+    "blurb": "Video courses from IIT professors in engineering, science and management.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech",
+      "sci",
+      "biz"
+    ],
+    "url": "https://nptel.ac.in",
+    "rural": 1,
+    "cost": "Free to learn",
+    "mode": "Online",
+    "when": "New batches twice a year",
+    "status": "published"
+  },
+  {
+    "id": "diksha",
+    "type": "learning",
+    "title": "DIKSHA",
+    "org": "Ministry of Education",
+    "blurb": "Digital lessons and textbooks linked to state boards. Scan the QR code in your textbook.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": "any",
+    "url": "https://diksha.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "App + web",
+    "status": "published"
+  },
+  {
+    "id": "prabha",
+    "type": "learning",
+    "title": "SWAYAM Prabha TV Channels",
+    "org": "Ministry of Education",
+    "blurb": "Free educational TV channels with lessons all day, useful where the internet is slow.",
+    "stages": [
+      "school",
+      "plus2",
+      "college"
+    ],
+    "interests": "any",
+    "url": "https://www.swayamprabha.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "DTH television",
+    "next": "Find the channel number for your DTH provider on the website.",
+    "status": "published"
+  },
+  {
+    "id": "ncert",
+    "type": "learning",
+    "title": "NCERT Textbooks and ePathshala",
+    "org": "NCERT",
+    "blurb": "All NCERT textbooks free to read, with audio and video resources.",
+    "stages": [
+      "school",
+      "plus2"
+    ],
+    "interests": "any",
+    "url": "https://ncert.nic.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "App + web",
+    "status": "published"
+  },
+  {
+    "id": "khan",
+    "type": "learning",
+    "title": "Khan Academy",
+    "org": "Khan Academy",
+    "blurb": "Free lessons and practice in maths, science and economics, with Hindi available.",
+    "stages": [
+      "school",
+      "plus2",
+      "college"
+    ],
+    "interests": [
+      "sci",
+      "tech",
+      "biz",
+      "health"
+    ],
+    "url": "https://www.khanacademy.org",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "nios",
+    "type": "learning",
+    "title": "NIOS Open Schooling",
+    "org": "National Institute of Open Schooling",
+    "blurb": "Finish Class 10 or 12, or a vocational course, at your own pace. Helpful if you left school or have no school nearby.",
+    "stages": [
+      "school",
+      "plus2",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://www.nios.ac.in",
+    "rural": 1,
+    "cost": "Low fee",
+    "mode": "Study centres + online",
+    "status": "published"
+  },
+  {
+    "id": "nta",
+    "type": "learning",
+    "title": "NTA Abhyas",
+    "org": "National Testing Agency",
+    "blurb": "Free practice tests for JEE Main and NEET from the exam body itself.",
+    "stages": [
+      "plus2"
+    ],
+    "interests": [
+      "tech",
+      "health",
+      "sci"
+    ],
+    "url": "https://www.nta.ac.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Mobile app",
+    "status": "published"
+  },
+  {
+    "id": "cs50",
+    "type": "learning",
+    "title": "CS50x",
+    "org": "Harvard University",
+    "blurb": "A free introduction to computer science, open to everyone.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://cs50.harvard.edu/x",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "fcc",
+    "type": "learning",
+    "title": "freeCodeCamp",
+    "org": "freeCodeCamp",
+    "blurb": "Free coding lessons and projects that earn certificates.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "tech"
+    ],
+    "url": "https://www.freecodecamp.org",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "ocw",
+    "type": "learning",
+    "title": "MIT OpenCourseWare",
+    "org": "MIT",
+    "blurb": "Free lecture notes, problem sets and videos from MIT courses.",
+    "stages": [
+      "plus2",
+      "college"
+    ],
+    "interests": [
+      "sci",
+      "tech",
+      "biz"
+    ],
+    "url": "https://ocw.mit.edu",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "skilldigital",
+    "type": "learning",
+    "title": "Skill India Digital Hub",
+    "org": "Ministry of Skill Development",
+    "blurb": "Find government-recognised short courses and certifications, including training centres near you.",
+    "stages": [
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "skills",
+      "tech"
+    ],
+    "url": "https://www.skillindiadigital.gov.in",
+    "rural": 1,
+    "cost": "Free or subsidised",
+    "mode": "Online + centres",
+    "status": "published"
+  },
+  {
+    "id": "ndli",
+    "type": "learning",
+    "title": "National Digital Library of India",
+    "org": "IIT Kharagpur",
+    "blurb": "Books, articles, past papers and lectures in many languages in one search.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://ndl.iitkgp.ac.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "iirs",
+    "type": "learning",
+    "title": "IIRS Outreach Courses",
+    "org": "Indian Institute of Remote Sensing, ISRO",
+    "blurb": "Free online courses on remote sensing and GIS from ISRO's training institute.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "sci",
+      "tech",
+      "skills"
+    ],
+    "url": "https://www.iirs.gov.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "arts",
+    "type": "learning",
+    "title": "Google Arts & Culture",
+    "org": "Google",
+    "blurb": "Virtual museum tours and courses on art, history and culture.",
+    "stages": [
+      "school",
+      "plus2",
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "arts"
+    ],
+    "url": "https://artsandculture.google.com",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "icar",
+    "type": "learning",
+    "title": "ICAR e-Courses",
+    "org": "ICAR",
+    "blurb": "Course material for agriculture and allied sciences from the national agricultural research system.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": [
+      "skills",
+      "sci"
+    ],
+    "url": "https://icar.org.in",
+    "rural": 1,
+    "cost": "Free",
+    "mode": "Online",
+    "status": "published"
+  },
+  {
+    "id": "coursera",
+    "type": "learning",
+    "title": "Coursera Financial Aid",
+    "org": "Coursera",
+    "blurb": "Apply for a fee waiver on paid courses and certificates from universities and companies.",
+    "stages": [
+      "college",
+      "voc"
+    ],
+    "interests": "any",
+    "url": "https://www.coursera.org",
+    "rural": 1,
+    "cost": "Fee waiver on request",
+    "mode": "Online",
+    "status": "published"
+  }
+]

@@ -1,0 +1,255 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Vantage Learning</title>
+<meta name="description" content="Vantage Learning matches students to scholarships, competitions, mentors, internships and free courses in five quick taps, wherever they live.">
+<meta name="theme-color" content="#101B4F">
+<meta property="og:title" content="Vantage Learning">
+<meta property="og:description" content="Five quick taps to the scholarships, competitions, mentors, internships and courses that fit you.">
+<meta property="og:type" content="website">
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Marcellus&display=swap">
+<link rel="stylesheet" href="style.css">
+<script src="theme.js"></script>
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap">
+    <a class="brand" href="#home" aria-label="Vantage Learning home">
+      <svg width="30" height="30" viewBox="0 0 28 28" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 25V13a10 10 0 0 1 20 0v12"/><path d="M9 12l5 9 5-9"/><path d="M14 3.5v1.5"/></svg>
+      Vantage Learning
+    </a>
+    <a class="iconbtn acct-btn" id="acctBtn" href="#account" aria-label="Sign in or create an account">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="8" r="3.5"/><path d="M5 20c0-3.9 3.1-7 7-7s7 3.1 7 7"/></svg>
+      <span>Sign in</span>
+    </a>
+    <button class="iconbtn" id="themeBtn" type="button" aria-label="Switch between light and dark theme">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+      <span id="themeTxt">Dark</span>
+    </button>
+  </div>
+  <nav class="tabsbar" aria-label="Main sections">
+    <div class="wrap">
+      <a class="ntab" href="#home" data-tab="home">Home</a>
+      <a class="ntab" href="#find" data-tab="find">Find my path</a>
+      <a class="ntab" href="#library" data-tab="library">Library</a>
+      <a class="ntab" href="#shortlist" data-tab="shortlist">Shortlist <span class="tcount num" id="shortCnt" hidden>0</span></a>
+      <a class="ntab" href="#toolkit" data-tab="toolkit">Toolkit</a>
+      <a class="ntab" href="#contribute" data-tab="contribute">Add an opportunity</a>
+    </div>
+  </nav>
+</header>
+
+<p class="banner" id="dataNote" hidden></p>
+
+<main>
+
+<!-- HOME -->
+<section id="view-home" data-view="home">
+  <div class="hero">
+    <div class="wrap hero-grid">
+      <div>
+        <p class="kicker">Education &amp; Learning</p>
+        <h1 tabindex="-1">Every talent deserves a <em>vantage point.</em></h1>
+        <p class="lede">Vantage Learning matches students to scholarships, competitions, mentors, internships and free courses. Five quick taps, and you see what fits you, wherever you live.</p>
+        <div class="cta-row">
+          <a class="btn btn-gold" href="#find">Find my path</a>
+        </div>
+  
+      </div>
+      <div class="art" aria-hidden="true">
+        <svg viewBox="0 0 360 420">
+          <path d="M30 410V176a150 150 0 0 1 300 0v234z" class="a-fill"/>
+          <path d="M58 410V178a122 122 0 0 1 244 0v232z" class="a-line"/>
+          <g class="a-gold">
+            <rect x="84" y="380" width="38" height="30" opacity=".35"/>
+            <rect x="122" y="350" width="38" height="60" opacity=".5"/>
+            <rect x="160" y="320" width="38" height="90" opacity=".65"/>
+            <rect x="198" y="290" width="38" height="120" opacity=".8"/>
+            <rect x="236" y="260" width="40" height="150"/>
+          </g>
+          <g class="a-pearl"><circle cx="141" cy="326" r="7"/><path d="M133 372v-30a8 8 0 0 1 16 0v30z"/></g>
+          <path class="a-gold" d="M256 168l7 20 20 7-20 7-7 20-7-20-20-7 20-7z"/>
+          <g class="a-pearl" opacity=".7"><circle cx="110" cy="120" r="1.8"/><circle cx="188" cy="82" r="1.8"/><circle cx="230" cy="124" r="1.8"/><circle cx="150" cy="150" r="1.8"/><circle cx="270" cy="98" r="1.8"/></g>
+        </svg>
+      </div>
+    </div>
+    <div class="wrap"><div class="types" id="typesStrip"></div></div>
+  </div>
+
+
+
+  <div class="sect">
+    <div class="wrap">
+      <div class="sect-head"><p class="kicker">How it works</p><h2>Built to reach the student who is furthest away</h2></div>
+      <div class="why3">
+        <div><h3>Ask less</h3><p>Class, interest, what you need, where you study from, and anything that unlocks support. Nothing else is asked.</p></div>
+        <div><h3>Match closely</h3><p>Every opportunity is checked against your class, field, income and background. Each card shows why it fits and what to do first.</p></div>
+        <div><h3>Reach everyone</h3><p>One light site that works on a basic phone. It highlights options reachable from a village, including school-based and TV-based learning.</p></div>
+      </div>
+    </div>
+  </div>
+
+ 
+<!-- FIND -->
+<section id="view-find" data-view="find" hidden>
+  <div class="sect">
+    <div class="wrap">
+      <div class="sect-head">
+        <p class="kicker">The Vantage compass</p>
+        <h1 tabindex="-1">Five taps to your next opportunity</h1>
+        <p>No forms, no account. Each answer narrows the list, so what you see is meant for you.</p>
+      </div>
+      <div id="app" aria-live="polite"></div>
+    </div>
+  </div>
+</section>
+
+<!-- LIBRARY -->
+<section id="view-library" data-view="library" hidden>
+  <div class="sect">
+    <div class="wrap">
+      <div class="sect-head">
+        <p class="kicker">The library</p>
+        <h1 tabindex="-1">Browse every opportunity</h1>
+        <p id="libCount" class="num"></p>
+      </div>
+      <div class="lib-bar">
+        <label class="sr" for="q">Search opportunities</label>
+        <input id="q" type="search" placeholder="Search by name, field or organisation" autocomplete="off">
+        <label class="sr" for="libStage">Study level</label>
+        <select id="libStage" class="sel">
+          <option value="all">All study levels</option>
+        </select>
+        <div class="chips" id="libTypes"></div>
+      </div>
+      <div class="rows" id="libRows"></div>
+    </div>
+  </div>
+</section>
+
+<!-- SHORTLIST -->
+<section id="view-shortlist" data-view="shortlist" hidden>
+  <div class="sect">
+    <div class="wrap">
+      <div class="sect-head">
+        <p class="kicker">Your shortlist</p>
+        <h1 tabindex="-1">Track what you want to apply for</h1>
+        <p>Save opportunities with the Save button, then add a deadline and mark your progress.</p>
+      </div>
+      <div id="shortBody"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ACCOUNT (optional) -->
+<section id="view-account" data-view="account" hidden>
+  <div class="sect">
+    <div class="wrap narrow">
+      <div class="sect-head">
+        <p class="kicker">Your account</p>
+        <h1 tabindex="-1" id="acctTitle">Keep your list on every device</h1>
+        <p id="acctLede">You never need an account to use Vantage. Create one only if you want your shortlist on your phone and your laptop.</p>
+      </div>
+      <div id="acctBody"></div>
+    </div>
+  </div>
+</section>
+
+<!-- TOOLKIT -->
+<section id="view-toolkit" data-view="toolkit" hidden>
+  <div class="sect">
+    <div class="wrap">
+      <div class="sect-head">
+        <p class="kicker">The toolkit</p>
+        <h1 tabindex="-1">Be ready before you apply</h1>
+        <p>The part that takes time is rarely the form. It is the documents, the first message and the small checks.</p>
+      </div>
+      <div id="toolBody" class="kit"></div>
+    </div>
+  </div>
+</section>
+
+<!-- CONTRIBUTE -->
+<section id="view-contribute" data-view="contribute" hidden>
+  <div class="sect">
+    <div class="wrap narrow">
+      <div class="sect-head">
+        <p class="kicker">For teachers, NGOs and students</p>
+        <h1 tabindex="-1">Know an opportunity we are missing?</h1>
+        <p>Many good programmes spread by word of mouth. Add one here. We review every suggestion before it appears for students, and we only publish official links.</p>
+      </div>
+      <form id="subForm" class="form" novalidate>
+        <div class="field">
+          <label for="f-type">Type</label>
+          <select id="f-type" name="type" class="sel" required>
+            <option value="">Choose a type</option>
+          </select>
+          <p class="err" id="e-type" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-title">Name of the opportunity</label>
+          <input id="f-title" name="title" type="text" maxlength="120" required autocomplete="off">
+          <p class="err" id="e-title" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-org">Who runs it</label>
+          <input id="f-org" name="org" type="text" maxlength="120" required autocomplete="off">
+          <p class="err" id="e-org" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-blurb">What is it, in one or two sentences</label>
+          <textarea id="f-blurb" name="blurb" maxlength="400" rows="3" required></textarea>
+          <p class="err" id="e-blurb" hidden></p>
+        </div>
+        <div class="field">
+          <label for="f-url">Official website</label>
+          <input id="f-url" name="url" type="url" inputmode="url" placeholder="https://" maxlength="300" required autocomplete="off">
+          <p class="err" id="e-url" hidden></p>
+        </div>
+        <fieldset class="field">
+          <legend>Who is it for</legend>
+          <div class="chips" id="f-stages"></div>
+          <p class="err" id="e-stages" hidden></p>
+        </fieldset>
+        <fieldset class="field">
+          <legend>Fields it suits <span>(leave empty if it suits everyone)</span></legend>
+          <div class="chips" id="f-interests"></div>
+        </fieldset>
+        <div class="field check">
+          <label><input id="f-rural" name="rural" type="checkbox"> <span>Students can take part from a village or small town</span></label>
+        </div>
+        <div class="field">
+          <label for="f-contact">Your email or phone <span>(optional, only so we can ask a question, never shown to students)</span></label>
+          <input id="f-contact" name="contact" type="text" maxlength="120" autocomplete="off">
+        </div>
+        <div class="field hp" aria-hidden="true">
+          <label for="f-website">Leave this empty</label>
+          <input id="f-website" name="website" type="text" tabindex="-1" autocomplete="off">
+        </div>
+        <div class="actions">
+          <button class="btn btn-gold" type="submit" id="subBtn">Send for review</button>
+        </div>
+        <p class="formmsg" id="subMsg" role="status" hidden></p>
+      </form>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <p>Built so that every student can find a vantage point.</p>
+  </div>
+</footer>
+<div class="toast" id="toast" role="status" hidden></div>
+
+<script src="app.js"></script>
+</body>
+</html>
